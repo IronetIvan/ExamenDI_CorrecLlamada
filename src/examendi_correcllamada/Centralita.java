@@ -20,6 +20,9 @@ public class Centralita {
     ArrayList<Llamada> listaLlamadas;
     double acumuladorCoste;
 
+    public Centralita() {
+    }
+
     public Centralita(ArrayList<Llamada> listaLlamadas) {
         this.listaLlamadas = listaLlamadas;
     }
